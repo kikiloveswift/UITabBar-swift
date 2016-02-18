@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC16356B1C6B352800BF4F70 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16356A1C6B352800BF4F70 /* ItemViewController.swift */; };
+		FC16356E1C6B359400BF4F70 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16356D1C6B359400BF4F70 /* FirstViewController.swift */; };
+		FC1635701C6B35E700BF4F70 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16356F1C6B35E700BF4F70 /* SecondViewController.swift */; };
+		FC1635721C6B35F600BF4F70 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1635711C6B35F600BF4F70 /* ThirdViewController.swift */; };
 		FC3A32F11C68F3B200700802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A32F01C68F3B200700802 /* AppDelegate.swift */; };
-		FC3A32F31C68F3B200700802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A32F21C68F3B200700802 /* ViewController.swift */; };
 		FC3A32F61C68F3B200700802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3A32F41C68F3B200700802 /* Main.storyboard */; };
 		FC3A32F81C68F3B200700802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3A32F71C68F3B200700802 /* Assets.xcassets */; };
 		FC3A32FB1C68F3B200700802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3A32F91C68F3B200700802 /* LaunchScreen.storyboard */; };
 		FC3A33061C68F3B200700802 /* UITabBar_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A33051C68F3B200700802 /* UITabBar_swiftTests.swift */; };
 		FC3A33111C68F3B200700802 /* UITabBar_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A33101C68F3B200700802 /* UITabBar_swiftUITests.swift */; };
+		FCBFF65E1C6B3F51009D6CC0 /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFF65D1C6B3F51009D6CC0 /* MainNavViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC16356A1C6B352800BF4F70 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		FC16356D1C6B359400BF4F70 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		FC16356F1C6B35E700BF4F70 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FC1635711C6B35F600BF4F70 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		FC3A32ED1C68F3B200700802 /* UITabBar-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITabBar-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3A32F01C68F3B200700802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC3A32F21C68F3B200700802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC3A32F51C68F3B200700802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC3A32F71C68F3B200700802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC3A32FA1C68F3B200700802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		FC3A330C1C68F3B200700802 /* UITabBar-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITabBar-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3A33101C68F3B200700802 /* UITabBar_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBar_swiftUITests.swift; sourceTree = "<group>"; };
 		FC3A33121C68F3B200700802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBFF65D1C6B3F51009D6CC0 /* MainNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC16356C1C6B352F00BF4F70 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FC16356A1C6B352800BF4F70 /* ItemViewController.swift */,
+				FCBFF65D1C6B3F51009D6CC0 /* MainNavViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		FC3A32E41C68F3B200700802 = {
 			isa = PBXGroup;
 			children = (
@@ -98,7 +115,10 @@
 			isa = PBXGroup;
 			children = (
 				FC3A32F01C68F3B200700802 /* AppDelegate.swift */,
-				FC3A32F21C68F3B200700802 /* ViewController.swift */,
+				FC16356D1C6B359400BF4F70 /* FirstViewController.swift */,
+				FC16356F1C6B35E700BF4F70 /* SecondViewController.swift */,
+				FC1635711C6B35F600BF4F70 /* ThirdViewController.swift */,
+				FC16356C1C6B352F00BF4F70 /* Main */,
 				FC3A32F41C68F3B200700802 /* Main.storyboard */,
 				FC3A32F71C68F3B200700802 /* Assets.xcassets */,
 				FC3A32F91C68F3B200700802 /* LaunchScreen.storyboard */,
@@ -256,8 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3A32F31C68F3B200700802 /* ViewController.swift in Sources */,
+				FC1635701C6B35E700BF4F70 /* SecondViewController.swift in Sources */,
+				FCBFF65E1C6B3F51009D6CC0 /* MainNavViewController.swift in Sources */,
+				FC16356E1C6B359400BF4F70 /* FirstViewController.swift in Sources */,
+				FC1635721C6B35F600BF4F70 /* ThirdViewController.swift in Sources */,
 				FC3A32F11C68F3B200700802 /* AppDelegate.swift in Sources */,
+				FC16356B1C6B352800BF4F70 /* ItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +506,7 @@
 				FC3A33171C68F3B200700802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC3A33181C68F3B200700802 /* Build configuration list for PBXNativeTarget "UITabBar-swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +515,7 @@
 				FC3A331A1C68F3B200700802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC3A331B1C68F3B200700802 /* Build configuration list for PBXNativeTarget "UITabBar-swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +524,7 @@
 				FC3A331D1C68F3B200700802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

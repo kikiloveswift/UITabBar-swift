@@ -15,7 +15,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        //声明一个空视图
+        self.window?.frame           = UIScreen.mainScreen().bounds
+        self.window?.backgroundColor = UIColor .orangeColor()
+        self.window?.makeKeyAndVisible()
+
+        let tabBarController = UITabBarController()
+        let firstVC          = FirstViewController()
+        let secondVC         = SecondViewController()
+        let thirdVC          = ThirdViewController()
+        let arr              = [firstVC,secondVC,thirdVC]
+        var mArr             = [UINavigationController]()
+    
+        //每一个标签控制器下面一个导航控制器 导航控制器下面一个 VC
+        for var a = 0; a < 3; a++
+        {
+            let nav        = UINavigationController(rootViewController: arr[a])
+            let barItem    = UITabBarItem(title: String(format: "第%d个", a+1), image:nil, tag: 11 + a)
+            nav.tabBarItem = barItem
+            mArr.insert(nav, atIndex: a)
+        }
+        
+        tabBarController .setViewControllers(mArr ,animated: true)
+        
+        self.window?.rootViewController = tabBarController
+        
+        
         return true
     }
 
