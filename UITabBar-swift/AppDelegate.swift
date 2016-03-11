@@ -28,11 +28,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let arr              = [firstVC,secondVC,thirdVC]
         var mArr             = [UINavigationController]()
     
+        let titleArr = ["首页","发现","聊天"]
+//        let imgArr   = [""]
         //每一个标签控制器下面一个导航控制器 导航控制器下面一个 VC
         for var a = 0; a < 3; a++
         {
             let nav        = UINavigationController(rootViewController: arr[a])
-            let barItem    = UITabBarItem(title: String(format: "第%d个", a+1), image:nil, tag: 11 + a)
+            let barItem    = UITabBarItem(title: titleArr[a], image:nil, tag: 11 + a)
             nav.tabBarItem = barItem
             mArr.insert(nav, atIndex: a)
         }
